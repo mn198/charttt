@@ -15,10 +15,11 @@
     "rough-charts": "^0.5.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm install && npm run build && npm install -g serve"
   },
   "eslintConfig": {
     "extends": "react-app"
