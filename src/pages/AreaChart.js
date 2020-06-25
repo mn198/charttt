@@ -15,7 +15,6 @@ function AreaChart(props){
 
     const addTextToSVG = (chartsvg, x, y, fontSize, content) => {
       var newText = document.createElementNS("http://www.w3.org/2000/svg","text");
-        newText.id = "GHUcgnpr_0"
         newText.setAttributeNS(null,"x", x);     
         newText.setAttributeNS(null,"y",y);
         newText.setAttributeNS(null,"font-family","'Patrick Hand', cursive"); 

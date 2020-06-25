@@ -135,9 +135,7 @@ function App() {
   }
   const chooseChartType = (type) => {
     const chartType = {bar: 0, pie: 1, line: 2, area: 3};
-    setChartType(chartType[type]);
-    handleFieldChange()
-    
+    setChartType(chartType[type]);    
   }
   const actions = [
     { icon: <BarChartIcon />, name: 'bar' },
